@@ -78,7 +78,18 @@ html {
 .mrcform {
     width: 88%;
 }
-
+.mrcfin{
+    background-image: url("/images/person-svgrepo-com.svg");
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+    background-size: 35px;
+}
+.mrcpass{
+    background-image: url("/images/eye-svgrepo-com.svg");
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+    background-size: 35px;
+}
 .forpw {
     text-align: center;
     color: var(--blue);
