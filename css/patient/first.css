@@ -27,7 +27,7 @@ html {
 
 
 
-.moonbtn{
+.moonbtn {
     position: fixed;
     z-index: 50;
     right: 10px;
@@ -37,10 +37,10 @@ html {
     height: fit-content;
     width: fit-content;
 }
-.moon {
-   
-}
-.bgimgform{
+
+.moon {}
+
+.bgimgform {
     display: none;
     position: fixed;
     top: 0;
@@ -56,6 +56,7 @@ html {
     opacity: 0.5;
 
 }
+
 .main {
     height: 100vh;
     width: 100%;
@@ -122,10 +123,41 @@ html {
     max-width: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 5%;
 
+}
+
+.mrccon {
+    height: 35%;
+    width: 100%;
+}
+
+#btn1 {
+    background-color: var(--blue);
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 0;
+}
+
+#btn1:hover {
+    background-color: #3aadc6;
+    box-shadow: 0px 0px 4px #3aadc6;
+}
+
+#btn2 {
+    background-color: #426ad3;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 0;
+}
+
+#btn2:hover {
+    background-color: #1f3e91;
+    box-shadow: 0px 0px 4px #1f3e91;
 }
 
 .mrhead {
@@ -136,10 +168,12 @@ html {
     margin-bottom: 8%;
 
 }
-.mrimg{
+
+.mrimg {
     background-color: #fffffff0;
     border-radius: 10px;
 }
+
 .mrcform {
     width: 88%;
 }
@@ -149,15 +183,16 @@ html {
     color: #37aec8;
 }
 
-.form-control{
-    
+.form-control {
+
     color: #ffffff;
-   
+
     background-color: #00000038 !important;
     border: var(--bs-border-width) solid #4a4b4c !important;
-    
-   
+
+
 }
+
 .form-control:focus {
     background-color: white !important;
     border: 2px solid var(--blue) !important;
@@ -191,17 +226,19 @@ html {
     background-position: 98% 50%;
     background-size: 35px;
 }
-.loginbtn{
+
+.loginbtn {
     background-color: #37aec8 !important;
 }
 
 @media screen and (max-width : 1200px) {
-    
-    .bgimgform{
+
+    .bgimgform {
         display: block;
         left: 0;
         width: 100%;
     }
+
     .mleft {
         display: none;
         left: 0;
@@ -235,10 +272,16 @@ html {
     .mrcon {
         width: 100%;
     }
+    .mrccon{
+        width: 90%;
+    }
+    .back{
+        height: 4%;
+    }
 
     .mrimg {
         scale: 0.8;
-        display: none;
+        /* display: none; */
     }
 
     .mrhead {

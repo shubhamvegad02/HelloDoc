@@ -17,7 +17,7 @@ html {
 }
 
 .ntext {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 500;
 }
 
@@ -45,12 +45,17 @@ html {
     height: 100vh;
     width: 50%;
     z-index: 1;
-    background-image: url("/images/docBg.jpg");
+    background-image: url("/images/11116016_415.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
+    background-size: 100% 100%;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    opacity: 0.5;
 
+}
+.mrimg{
+    background-color: #fffffff0;
+    border-radius: 10px;
 }
 .main {
     height: 100vh;
@@ -92,15 +97,16 @@ html {
     width: 50%;
     position: relative;
     z-index: 1;
-    background-image: url("/images/docBg.jpg");
+    background-image: url("/images/11116016_415.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
+    background-size: 100% 100%;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    opacity: 0.5;
 }
 
 .back {
-    height: 3%;
+    height: 20%;
     width: 100%;
     color: var(--blue);
 
@@ -138,15 +144,38 @@ html {
 
 .forpw {
     text-align: center;
-    color: var(--blue);
+    color: #37aec8;
 }
-
+.form-control{
+    
+    color: #ffffff;
+   
+    background-color: #00000038 !important;
+    border: var(--bs-border-width) solid #4a4b4c !important;
+    
+   
+}
 .form-control:focus {
+    background-color: white !important;
     border: 2px solid var(--blue) !important;
     box-shadow: 1px 1px 8px var(--blue) !important;
 }
+.loginbtn {
+    /* background-color: var(--blue) !important; */
+    background-color: #37aec8 !important;
 
-button {
+    border: 1px solid var(--blue) !important;
+}
+
+.loginbtn:hover {
+    background-color: var(--nblue) !important;
+    border: 1px solid var(--nblue) !important;
+}
+
+
+
+
+/* button {
     background-color: var(--blue) !important;
     border: 1px solid var(--blue) !important;
 }
@@ -154,7 +183,7 @@ button {
 button:hover {
     background-color: var(--nblue) !important;
     border: 1px solid var(--nblue) !important;
-}
+} */
 
 .terms {
     text-align: center;
@@ -206,6 +235,9 @@ button:hover {
 }
 
 @media screen and (max-width : 768px) {
+    .back{
+        height: 5%;
+    }
     .mright {
         width: 100%;
     }
